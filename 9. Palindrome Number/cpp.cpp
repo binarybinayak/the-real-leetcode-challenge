@@ -1,7 +1,7 @@
 #include <iostream>
 
 int isPalindrome(int x) {
-    int revX = 0;
+    long int revX = 0;
     int n = x;
     while(n>0) {
         revX = revX*10 + n%10;
